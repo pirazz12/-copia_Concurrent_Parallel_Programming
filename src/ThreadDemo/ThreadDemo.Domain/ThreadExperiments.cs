@@ -8,6 +8,22 @@ public class ThreadExperiments
         Work("B");
     }
 
+     
+public void RunThreads()
+    {
+        Thread threadA = new Thread(() => Work("A"));
+        Thread threadB = new Thread(() => Work("B"));
+        Console.WriteLine("Starting Threads...");
+        
+        threadA.Start();
+        threadB.Start();
+
+        Console.WriteLine("This line is written by main thread");
+        
+        threadA.Join();
+        threadB.Join();
+    }
+
     // 
     private void Work(string name)
     {

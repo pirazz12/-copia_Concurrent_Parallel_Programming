@@ -23,9 +23,9 @@ while (true)
             break;
         
 
-        // case "2":
-        //     experiments.RunThreads();
-        //     break;
+        case "2":
+        experiments.RunThreads();
+        break;
 
         // case "3":
         //     experiments.ShowThreadProperties();
