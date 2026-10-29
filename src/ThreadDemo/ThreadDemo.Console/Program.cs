@@ -20,24 +20,23 @@ while (true)
     {
         case "1":
             experiments.RunSequential();
-            break;
+        break;
         
-
         case "2":
         experiments.RunThreads();
         break;
 
-        // case "3":
-        //     experiments.ShowThreadProperties();
-        //     break;
+        case "3":
+        experiments.ShowThreadProperties();
+        break;
 
-        // case "4":
-        // case "5":
-        //     var result = experiments.RunCounter(useLock: choice == "5");
+         case "4":
+         case "5":
+            var result = experiments.RunCounter(useLock: choice == "5");
 
-        //     Console.WriteLine($"Atteso: {result.Expected}");
-        //     Console.WriteLine($"Ottenuto: {result.Actual}");
-        //     break;
+             Console.WriteLine($"Atteso: {result.Expected}");
+             Console.WriteLine($"Ottenuto: {result.Actual}");
+             break;
 
         case "0":
             return;
