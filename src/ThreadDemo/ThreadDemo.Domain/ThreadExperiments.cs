@@ -58,6 +58,7 @@ public sealed class ThreadExperiments
 
         return (iterations * 2, counter);
     }
+    
 
     private static void Increment(int iterations, bool useLock)
     {
