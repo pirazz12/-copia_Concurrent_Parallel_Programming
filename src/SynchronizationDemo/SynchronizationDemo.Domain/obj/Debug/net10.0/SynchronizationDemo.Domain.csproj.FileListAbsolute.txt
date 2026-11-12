@@ -1,0 +1,12 @@
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\bin\Debug\net10.0\SynchronizationDemo.Domain.deps.json
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\bin\Debug\net10.0\SynchronizationDemo.Domain.dll
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\bin\Debug\net10.0\SynchronizationDemo.Domain.pdb
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.AssemblyInfoInputs.cache
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.AssemblyInfo.cs
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.csproj.CoreCompileInputs.cache
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.sourcelink.json
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.dll
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\refint\SynchronizationDemo.Domain.dll
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\SynchronizationDemo.Domain.pdb
+c:\Users\francesco.piraccini\Desktop\Concurrent_Parallel_Programming\src\SynchronizationDemo\SynchronizationDemo.Domain\obj\Debug\net10.0\ref\SynchronizationDemo.Domain.dll

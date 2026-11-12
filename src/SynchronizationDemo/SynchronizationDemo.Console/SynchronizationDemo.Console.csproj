@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SynchronizationDemo.Domain\SynchronizationDemo.Domain.csproj" />
-    <ProjectReference Include="..\..\Shared\Labs.Console\Labs.Console.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

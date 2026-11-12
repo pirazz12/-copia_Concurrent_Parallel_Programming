@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsyncParallelDemo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80ca152f70964815db757c719436d9b78c9862a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4567cc3a1ca83548430254a6242189426e23c3f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsyncParallelDemo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsyncParallelDemo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
