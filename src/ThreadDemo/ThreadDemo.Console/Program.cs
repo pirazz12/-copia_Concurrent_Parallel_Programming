@@ -11,6 +11,8 @@ while (true)
     Console.WriteLine("3. Proprietà del thread corrente");
     Console.WriteLine("4. Contatore senza lock");
     Console.WriteLine("5. Contatore con lock");
+    Console.WriteLine("6. Thread in background");
+    Console.WriteLine("7. Thread in foreground");
     Console.WriteLine("0. Esci");
     Console.Write("Scelta: ");
 
@@ -29,6 +31,14 @@ while (true)
         case "3":
         experiments.ShowThreadProperties();
         break;
+
+        case "6":
+            experiments.RunBackgroundThreadExperiment();
+            break;
+
+        case "7":
+            experiments.RunForegroundThreadExperiment();
+            break;
 
          case "4":
          case "5":

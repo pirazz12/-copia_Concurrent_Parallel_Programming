@@ -43,6 +43,38 @@ public sealed class ThreadExperiments
         Console.WriteLine($"Is Background Thread: {thread.IsBackground}");
     }
 
+    public void RunBackgroundThreadExperiment()
+    {
+        Thread worker = new(() =>
+        {
+            Console.WriteLine($"[Background worker] Started on managed thread {Thread.CurrentThread.ManagedThreadId}");
+            Thread.Sleep(3000);
+            Console.WriteLine($"[Background worker] Finished after 3 seconds on managed thread {Thread.CurrentThread.ManagedThreadId}");
+        })
+        {
+            IsBackground = true
+        };
+
+        worker.Start();
+        Console.WriteLine("[Main thread] Background worker started without Join.");
+    }
+
+    public void RunForegroundThreadExperiment()
+    {
+        Thread worker = new(() =>
+        {
+            Console.WriteLine($"[Foreground worker] Started on managed thread {Thread.CurrentThread.ManagedThreadId}");
+            Thread.Sleep(3000);
+            Console.WriteLine($"[Foreground worker] Finished after 3 seconds on managed thread {Thread.CurrentThread.ManagedThreadId}");
+        })
+        {
+            IsBackground = false
+        };
+
+        worker.Start();
+        Console.WriteLine("[Main thread] Foreground worker started without Join.");
+    }
+
     public (int Expected, int Actual) RunCounter(bool useLock, int iterations = 100_000)
     {
         counter = 0;
@@ -58,7 +90,7 @@ public sealed class ThreadExperiments
 
         return (iterations * 2, counter);
     }
-    
+
 
     private static void Increment(int iterations, bool useLock)
     {
